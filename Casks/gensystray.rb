@@ -1,6 +1,6 @@
 cask "gensystray" do
-  version "2.2.0"
-  sha256 "077f49e19245c169d9947eeedbbf3d8f2255c6c2c92860cae9cc636cfeadb25b"
+  version "2.2.1"
+  sha256 "5264ffa4e2fc8bf128921683cb56d72a7e23b1ff1ced753ba4b440fa46fe0154"
 
   url "https://github.com/dardevelin/gensystray/releases/download/v#{version}/GenSysTray-#{version}-macos.zip"
   name "GenSysTray"
