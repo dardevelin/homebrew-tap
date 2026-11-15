@@ -31,4 +31,6 @@ what's new in each, are on
 [dardevelin/clwokki-releases](https://github.com/dardevelin/clwokki-releases/releases).
 
 Installed clwokki from `dardevelin/wokki`, its first tap? It moved here:
-`brew trust --cask dardevelin/tap/clwokki`, then `brew update`.
+`brew trust --cask dardevelin/tap/clwokki`, then `brew update` (or, if brew
+already said it moved, `brew reinstall --cask dardevelin/tap/clwokki`),
+then `brew untap dardevelin/wokki`.
