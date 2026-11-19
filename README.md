@@ -13,6 +13,7 @@ Then install any of them by name, or skip the tap step and use the full name.
 | [clwokki](https://github.com/dardevelin/clwokki-releases) | Voice and chat on Mumble servers from the terminal, a status bar and the Mac's menu bar | macOS: `brew install --cask dardevelin/tap/clwokki`<br>Linux: `brew install dardevelin/tap/clwokki` |
 | [gensystray](https://github.com/dardevelin/gensystray) | A system tray icon configured with a config file | `brew install --cask dardevelin/tap/gensystray` |
 | [domain-probe](https://github.com/dardevelin/domain-probe) | Fast, thorough domain intelligence from the terminal | `brew install dardevelin/tap/domain-probe` |
+| [ARCSessions](https://github.com/dardevelin/arcsessions-releases) | Route, mix and record the audio of each app, with a virtual microphone | `brew install --cask dardevelin/tap/arcsessions` |
 
 Upgrading: `brew upgrade`, or one tool, for example `brew upgrade --cask clwokki`.
 
@@ -34,3 +35,20 @@ Installed clwokki from `dardevelin/wokki`, its first tap? It moved here:
 `brew trust --cask dardevelin/tap/clwokki`, then `brew update` (or, if brew
 already said it moved, `brew reinstall --cask dardevelin/tap/clwokki`),
 then `brew untap dardevelin/wokki`.
+
+
+## ARCSessions
+
+- **macOS 14.2 or later**, Apple silicon and Intel: the cask installs
+  `/Applications/ARCSessions.app` (Developer ID signed and notarized).
+- **ARC Mic** (a microphone other apps can use) and **ARC Speakers** are
+  optional. Install them from ARCSessions: Settings › Microphone › Install
+  (one administrator password). Remove them there before
+  `brew uninstall --cask arcsessions`: Homebrew doesn't.
+- Your sessions in `~/.arcsessions` are kept, also with `--zap`.
+
+Upgrading: `brew upgrade --cask arcsessions`. Already installed it from a
+DMG? `brew install --cask --force dardevelin/tap/arcsessions` lets Homebrew
+take it over; your permissions and sessions stay. Releases, and what's new
+in each, are on
+[dardevelin/arcsessions-releases](https://github.com/dardevelin/arcsessions-releases/releases).
