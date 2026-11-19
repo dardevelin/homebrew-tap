@@ -1,6 +1,6 @@
 cask "arcsessions" do
-  version "0.20.0"
-  sha256 "4b9a394c7277ad4d5d9471c17a8aeab9a40ead28c658e5573adf8b8ce042f1dc"
+  version "0.21.0"
+  sha256 "fd6b8449d848edf6212e17e2d288cdf9e5d052f7ca3d3ec23d5c1238295d4675"
 
   url "https://github.com/dardevelin/arcsessions-releases/releases/download/v#{version}/ARCSessions-#{version}.dmg"
   name "ARCSessions"
